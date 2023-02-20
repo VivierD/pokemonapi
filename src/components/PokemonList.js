@@ -3,6 +3,7 @@ import React from 'react'
 function PokemonList(props) {
     const{name,id,type,image} = props
 
+    /* Retourne la mise en page qui sera affiché */
   return (
     <div>
         <section className={`pokemon-list-container ${type}`}>

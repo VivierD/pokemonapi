@@ -5,6 +5,7 @@ import PokemonList from './PokemonList'
 function PokemonCollection(props){
     const{pokemons} = props
 
+    /* Déstructuration des données une à une envoyé à PokemonList pour la mise en page */
     return(
     <section className="collection-container">
         {pokemons.map((pokemon) => {
